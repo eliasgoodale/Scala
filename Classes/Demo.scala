@@ -1,4 +1,5 @@
 import graphics._
+import run._
 
 object PointDemo {
     def main(args: Array[String]) {
@@ -13,3 +14,10 @@ object LocationDemo {
         loc.move(10, 10, 5);
     }
 }
+
+object LoopDemo {
+    def main(args: Array[String]) {
+        4 times println("hello");
+    }
+}
+
